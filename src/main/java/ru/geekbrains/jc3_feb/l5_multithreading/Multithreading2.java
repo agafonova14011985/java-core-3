@@ -11,10 +11,10 @@ public class Multithreading2 {
 //        simpleReentrantLockExample();
 //        reentrantReadWriteLockExample();
 //        simpleCountDownLatchExample();
-//        anotherCountDownLatchExample();
+        anotherCountDownLatchExample();
 //        semaphoreExample();
 //        simpleCyclicBarrierExample();
-//        barrierWithRunnable();
+        barrierWithRunnable();
 //        concurrentCollectionsExample();
 
     }
