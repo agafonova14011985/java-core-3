@@ -1,0 +1,32 @@
+INFO  2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:29) - Number = 3.24E-4 and string = Hi
+TRACE 2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:30) - Trace log
+DEBUG 2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:31) - Debug log
+INFO  2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:32) - Info log
+WARN  2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:33) - Warn log
+ERROR 2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:34) - Error log
+FATAL 2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:35) - Fatal log
+INFO  2022-03-03 23:31:49 [Thread-0] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:37) - Another thread
+ERROR 2022-03-03 23:31:49 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:42) - Throwing
+java.lang.RuntimeException: AAAAAAAAAAAAAA
+	at ru.geekbrains.jc3_feb.l6_log_test.LoggingExample.main(LoggingExample.java:40) ~[classes/:?]
+INFO  2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:29) - Number = 3.24E-4 and string = Hi
+TRACE 2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:30) - Trace log
+DEBUG 2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:31) - Debug log
+INFO  2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:32) - Info log
+WARN  2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:33) - Warn log
+ERROR 2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:34) - Error log
+FATAL 2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:35) - Fatal log
+INFO  2022-03-03 23:35:51 [Thread-0] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:37) - Сообщение из потока
+ERROR 2022-03-03 23:35:51 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExample (LoggingExample.java:42) - Throwing
+java.lang.RuntimeException: AAAAAAAAAAAAAA
+	at ru.geekbrains.jc3_feb.l6_log_test.LoggingExample.main(LoggingExample.java:40) ~[classes/:?]
+INFO  2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:15) - Number = 0.0324 and string = Hi
+TRACE 2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:17) - Trace log
+DEBUG 2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:18) - Debug log
+INFO  2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:19) - Info log
+WARN  2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:20) - Warn log
+ERROR 2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:21) - Error log
+INFO  2022-03-03 23:56:04 [Thread-0] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:23) - Another thread
+ERROR 2022-03-03 23:56:04 [main] ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok (LoggingExampleWithSlf4jAndLombok.java:28) - an error occured
+java.lang.RuntimeException: AAAAAAAAAAAAAA
+	at ru.geekbrains.jc3_feb.l6_log_test.LoggingExampleWithSlf4jAndLombok.main(LoggingExampleWithSlf4jAndLombok.java:26) ~[classes/:?]
